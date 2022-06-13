@@ -1,4 +1,11 @@
 #!/bin/bash
+import os
+import time
+echo "SYSTEM SCAN"
+for i in [ 2, 3, 1, 2]:
+	echo ("Waiting For %s" % i , end='')
+	echo (" seconds")
+	time.sleep(i)
 echo "--------------------"
 echo "|     Кто ты ?     |"
 echo "|------------------|"
